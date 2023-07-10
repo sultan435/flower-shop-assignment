@@ -15,6 +15,7 @@ body {
     color: #FFFFFF;
     margin-top: 32px;
 }
+
 .section-title {
     color: #272727;
     font-size: 40px;
@@ -22,6 +23,7 @@ body {
     text-align: center;
     margin-bottom: 24px;
 }
+
 .section-discription {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -142,6 +144,7 @@ body {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 }
+
 .offer-title {
     color: #E55473;
 }
@@ -150,27 +153,51 @@ body {
 
 /* start instagram style */
 
-.instagram-container{
+.instagram-container {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-top: 48px;
+    margin-bottom: 128px;
 }
 
 /* end instagram style */
 
 /* start search style */
 
-.search-container{
-    height: 450px;
-    margin: 128px 240px;
+.search-container {
+    height: 50vh;
+    width: 76%;
     background-image: url("../assets/Rectangle\ 9.png");
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
 }
-.search-ber,input[type="email"] {
-    text-align: center;
-    width: 700px;
-    margin: 0 auto;    
+
+.search-bar {
+    display: flex;
+    gap: 16px;
+
+}
+
+input,
+[type="email"] {
+    width: 600px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 22px;
+    margin-top: 48px;
+    border: none;
+}
+
+.btn-bg {
+    border-radius: 8px;
+    background: #E55473;
+    margin-top: 48px;
+    padding: 20px 30px;
+    border: none;
 }
 
 /* start footer style */
@@ -182,23 +209,27 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 128px;
 }
 
-.footer-title{
+.footer-title {
     color: #FFFFFF;
     font-size: 48px;
     font-weight: 800;
     margin-bottom: 24px;
 }
-.footer-title-color{
+
+.footer-title-color {
     color: #E55473;
 }
-.footer-discription{
+
+.footer-discription {
     color: rgba(255, 255, 255, 0.90);
     font-size: 18px;
     margin-bottom: 32px;
 }
-.copyright{
+
+.copyright {
     color: rgba(255, 255, 255, 0.40);
 }
 
