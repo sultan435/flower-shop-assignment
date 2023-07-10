@@ -1,4 +1,48 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    background-color: #E55473;
+    padding: 20px 42px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+/* start banar style */
+
+.banar-container {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 95px;
+    padding: 50px 240px 0px;
+}
+
+.banar-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.banar-discription {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.banar-image {
+    width: 550px;
+    height: 800px;
+}
+
+/* end banar style */
