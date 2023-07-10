@@ -159,4 +159,47 @@ body {
 
 /* end instagram style */
 
-/* start instagram style */
+/* start search style */
+
+.search-container{
+    height: 450px;
+    margin: 128px 240px;
+    background-image: url("../assets/Rectangle\ 9.png");
+    background-size: cover;
+}
+.search-ber,input[type="email"] {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;    
+}
+
+/* start footer style */
+
+footer {
+    height: 450px;
+    background-color: #111010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-title{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.footer-title-color{
+    color: #E55473;
+}
+.footer-discription{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+}
+
+/* end footer style */
