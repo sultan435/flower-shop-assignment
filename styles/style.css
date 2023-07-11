@@ -34,6 +34,7 @@ body {
 /* start banar style */
 
 .banar-container {
+    height: 85vh;
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
@@ -172,7 +173,7 @@ body {
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     margin: 0 auto;
 }
 
